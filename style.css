@@ -1,0 +1,41 @@
+
+    *{
+      margin:0;
+      padding:0;
+    }
+.heading{
+margin-top:30px;
+font-size:30px;
+font-weight:800;
+color:green;
+display:flex;
+align-items: center;
+  justify-content: center;
+
+overflow:hidden;
+}
+.main{
+height:400px;
+display:flex;
+align-items: center;
+  justify-content: center;
+}
+.container{
+background-color:lightgreen;
+padding:10px;
+border-radius:4px;
+}
+
+    .button{
+      width:50px;
+      height:50px;
+      font-size:25px;
+      margin:2px;
+      cursor:pointer;
+    }
+    .textview{
+      margin:5px;
+      padding:5px;
+      width:202px;
+      font-size:25px;
+    }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="heading">
+   <marquee width="400px" direction="left">
+Simple calculator made by ABd Joni
+</marquee>
+</div>
+<div class="main">
+
+<div class="container">
+
+  <form name="form">
+    <input class="textview" type="text" name="textview">
+  </form>
+  <table>
+    <tr>
+      <td><input class="button" type="button" value="C"></td>
+      <td><input class="button" type="button" value="del"></td>
+      <td><input class="button" type="button" value="/"></td>
+      <td><input class="button" type="button" value="*"></td>
+      
+    </tr>
+    <tr>
+      <td><input class="button" type="button" value="7"></td>
+      <td><input class="button" type="button" value="8"></td>
+      <td><input class="button" type="button" value="9"></td>
+      <td><input class="button" type="button" value="-"></td>
+      
+    </tr>
+    <tr>
+      <td><input class="button" type="button" value="4"></td>
+      <td><input class="button" type="button" value="5"></td>
+      <td><input class="button" type="button" value="6"></td>
+      <td><input class="button" type="button" value="+"></td>
+      
+    </tr>
+    <tr>
+      <td><input class="button" type="button" onclick="insert(1)" value="1"></td>
+      <td><input class="button" type="button" value="2"></td>
+      <td><input class="button" type="button" value="3"></td>
+      <td rowspan="2"><input style="height:106px" class="button" type="button" value="="></td>
+      
+    </tr>
+    <tr>
+      <td colspan="2" ><input style="width:106px" class="button" type="button" value="0"></td>
+      <td><input class="button" type="button" value="."></td>
+    </tr>
+  </table>
+</div>
+</div>
+  
+  
+    
+  <script src="calculator.js"></script>
+</body>
+</html>
+
